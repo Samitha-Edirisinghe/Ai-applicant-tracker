@@ -1,0 +1,18 @@
+Flask>=3.1.1
+pandas>=2.3.1
+pypdf>=5.8.0
+Flask-Cors>=6.0.1
+python-docx>=1.2.0
+nltk>=3.9.1
+num2words>=0.5.14
+deep-translator>=1.11.4
+scikit-learn>=1.7.1
+pymilvus>=2.5.14
+gunicorn>=23.0.0
+numpy==1.26.4  # Keep exact version if needed for compatibility
+python-dotenv>=1.1.1
+sentence-transformers>=5.0.0
+torch==2.2.2
+networkx>=3.4.2
+nvidia-cuda-runtime-cu12>=12.1.105
+nvidia-cusolver-cu12>=11.4.5.107  # Remove hash constraint
