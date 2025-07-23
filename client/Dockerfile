@@ -1,5 +1,5 @@
 # Stage 1: Build React app
-FROM node:20.10.0 as build
+FROM node:20.10.0 AS build
 
 WORKDIR /client
 
@@ -13,9 +13,7 @@ RUN npm run build
 FROM nginx:alpine
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
-
 COPY --from=build /client/dist /usr/share/nginx/html
 
 EXPOSE 8080
-
 CMD ["nginx", "-g", "daemon off;"]
