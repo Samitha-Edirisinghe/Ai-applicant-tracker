@@ -48,12 +48,17 @@ This open‑source project implements an AI‑powered applicant tracking and CV 
 ---
 
 ## Installation & Setup
-* **Users can upload or paste their resumes on this page.
-* 
+
 ### 1. Resume Upload Page
 
+* **Users can upload or paste their resumes on this page
+* ![My Image](Resume_Upload_Page.png)
+
 ### 2. Results Page
+
 * **This page displays the top 5 job descriptions that match the uploaded resume.
+* ![My Image](Results_Page.png)
+  
 ```bash
 git clone https://github.com/Samitha-Edirisinghe/ai‑applicant‑tracker.git
 cd ai‑applicant‑tracker
