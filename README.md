@@ -42,12 +42,18 @@ This open‑source project implements an AI‑powered applicant tracking and CV 
 * **Vector DB**: Milvus
 * **Containerization**: Docker & Docker Compose
 
+## Website Interface
+
+### 1. Clone Repository
 ---
 
 ## Installation & Setup
+* **Users can upload or paste their resumes on this page.
+* 
+### 1. Resume Upload Page
 
-### 1. Clone Repository
-
+### 2. Results Page
+* **This page displays the top 5 job descriptions that match the uploaded resume.
 ```bash
 git clone https://github.com/Samitha-Edirisinghe/ai‑applicant‑tracker.git
 cd ai‑applicant‑tracker
